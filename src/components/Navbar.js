@@ -17,7 +17,9 @@ export default function Navbar() {
   const [navigation, setNavigation] = useState([
     { name: 'Home', href: '/', current: true },
     { name: 'Products', href: '/products', current: false },
-    { name: 'Categories', href: '/categories', current: false },
+    { name: 'Taxis', href: '/Taxis', current: false },
+    { name: 'Buses', href: '/Buses', current: false }, 
+    { name: 'PrivateCar', href: '/PrivateCar', current: false },  
   ]);
 
   useEffect(() => {
