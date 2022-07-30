@@ -63,7 +63,7 @@ export default function Navbar() {
                         to={item.href}
                         className={classNames(
                           location.pathname === item.href
-                            ? 'bg-indigo-900 text-white'
+                            ? 'bg-green-900 text-white'
                             : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                           'px-3 py-2 rounded-md text-sm font-medium'
                         )}
@@ -79,7 +79,7 @@ export default function Navbar() {
                 {auth ? (
                   <Link
                     to="/login"
-                    className="bg-indigo-600 p-1 rounded-full text-white px-4 hover:bg-indigo-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                    className="bg-indigo-600 p-1 rounded-full text-white px-4 hover:bg-green-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                   >
                     <span className="sr-only">View notifications</span>
                     {/* <BellIcon className="h-6 w-6" aria-hidden="true" /> */}
@@ -88,7 +88,7 @@ export default function Navbar() {
                 ) : (
                   <Link
                     to="/login"
-                    className="bg-indigo-600 p-1 rounded-full text-white px-4 hover:bg-indigo-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+                    className="bg-green-600 p-1 rounded-full text-white px-4 hover:bg-green-500 hover:text-white focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
                   >
                     <span className="sr-only">View notifications</span>
                     {/* <BellIcon className="h-6 w-6" aria-hidden="true" /> */}
