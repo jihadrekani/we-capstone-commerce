@@ -1,6 +1,6 @@
-# WeCommerce
+# Car exhibition
 
-This is a test ecommerce project built for learning purposes.
+This is a website for showing and saling Cars.
 
 ## Features
 
@@ -11,3 +11,15 @@ This is a test ecommerce project built for learning purposes.
 - Search and Filtering
 
 ## API Used [Faker Store Api](https://fakestoreapi.com/docs).
+
+
+## Pages
+- Home 
+- About
+- Categories
+- Login
+- Products
+- Register
+- PrivateCar
+- Taxis
+- Buses
